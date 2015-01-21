@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
         RadioGroup rgTo = (RadioGroup)findViewById(R.id.rgTo);
         int selTo = rgTo.getCheckedRadioButtonId();
 
-        
+
 
         if (selFrom == R.id.rbFrmC) { //The user wants to convert from Celsius.
             if(selTo == R.id.rbToF)
