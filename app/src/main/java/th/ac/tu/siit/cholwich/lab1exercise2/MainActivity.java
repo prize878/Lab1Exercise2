@@ -76,8 +76,8 @@ public class MainActivity extends Activity {
 
 
 
-                TextView tv = (TextView)findViewById(R.id.tvOutput);
-        tv.setText(Double.toString(input));
+         TextView tv = (TextView)findViewById(R.id.tvOutput);
+        tv.setText(String.format("%.2f",input));
     }
 
     @Override
